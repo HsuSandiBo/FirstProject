@@ -160,3 +160,37 @@ body{
         padding: 0;
     }
 }
+@media screen and (max-width: 320px){
+    .navigation{
+        width: 50%;
+        height: auto;
+        display: block;
+    }
+    .navbar{
+        width: 50%;
+        height: 100%;
+        display: block;
+    }
+    .navItem{
+        margin-top: 10px;
+        border-bottom: 1px solid grey;
+        display: block;
+    }
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
+        margin: 10px;
+        padding: 0;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .portrait, .nature, .product, .event{
+        margin: 10px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .portrait .focus, .nature .landscape, .product .ads, .event .ceremony{
+        margin: 0;
+        padding: 0;
+    }
+}
